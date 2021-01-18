@@ -1,0 +1,49 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Fraunces', serif;
+}
+
+body {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:100vh;
+gap: 5rem;
+background-color: #3a4750;
+color: #f6c90e
+}
+
+#counter {
+font-size: 5.5rem;
+}
+
+.counter-wrapper {
+display: flex;
+gap: 2rem;
+
+}
+
+#increase-btn , 
+#decrease-btn {
+border-radius: 50%;
+height: 2.5rem;
+width: 2.5rem;
+font-size: 1.5rem;
+font-weight: 200;
+cursor:pointer;
+outline: none;
+box-shadow:0px 0px 10px #f6c90e;
+background-color: #f6c90e;
+}
+
+#reset {width: 10rem;
+height: 3rem;
+border-radius: 5rem;
+font-weight: 200;
+cursor:pointer;
+outline: none;
+box-shadow:0px 0px 10px #f6c90e;
+background-color: #f6c90e;}
