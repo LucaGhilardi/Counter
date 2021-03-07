@@ -1,0 +1,4 @@
+This project, as the name suggests, is  a simple counter created with Javascript.
+Since the main purpose was to demonstrate the JS acquired skills the style is extremely simple.
+The page is composed by 3 buttons. +, - and the counter reset. All of them with and id to make simple to target for JS.
+
